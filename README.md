@@ -8,7 +8,7 @@ Micky is a Python-based face tracking project that uses OpenCV to detect and tra
 - Hardware Requirements
 - Circuit Connections
 - Software Requirements
-- Installation
+- Installation 
 - Usage
 - Code Explanation
 - Contributing
