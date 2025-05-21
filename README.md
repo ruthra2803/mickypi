@@ -5,14 +5,13 @@ Micky is a Python-based face tracking project that uses OpenCV to detect and tra
 ## Table of Contents
 - Overview
 - Features
-- [Hardware Requirements]
-- [Circuit Diagram]
-- [Software Requirements]
-- [Installation]
-- [Usage]
-- [Code Explanation
-- [Contributing]
-- [License]
+- Hardware Requirements
+- Circuit Connections
+- Software Requirements
+- Installation
+- Usage
+- Code Explanation
+- Contributing
 
 ## Overview
 Micky leverages OpenCV's Haar Cascade Classifier to detect faces in real-time video captured from a webcam. The project processes video frames, identifies faces, and draws bounding boxes around them, making it suitable for applications like surveillance, human-computer interaction, or educational purposes.
@@ -32,6 +31,15 @@ Micky leverages OpenCV's Haar Cascade Classifier to detect faces in real-time vi
 - 
 ## Circuit Connections 
 
+OLED Pin	Connect to Nano
+
+VCC        3.3V or 5V
+GND	       GND
+SCL	       A5
+SDA        A4
+Left-Right Servo (x)	D2
+Up-Down Servo (y)   	D3
+servo power supply 5v 
 
 
 
